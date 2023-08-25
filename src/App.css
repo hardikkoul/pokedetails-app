@@ -1,5 +1,12 @@
+/* App.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
 .App {
-  text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -7,72 +14,63 @@
   min-height: 100vh;
 }
 
-/* App.css */
-img {
-  width: 200px; /* Adjust the width as needed */
-  height: 200px; /* Adjust the height as needed */
-  margin-top: 10px;
+.app-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+input[type="text"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-/* App.css */
 table {
+  align-items: center;
   width: 100%;
+  max-width: 600px;
   border-collapse: collapse;
   margin-top: 20px;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 th, td {
   border: 1px solid #ccc;
-  padding: 8px;
+  padding: 12px;
   text-align: left;
 }
 
 th {
   background-color: #f2f2f2;
+  font-weight: bold;
 }
 
 td span {
   margin-right: 5px;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-  background-color: #f0f0f0; /* Set your desired background color */
+/* App.css */
+img {
+  width: 200px;
+  height: auto;
+  margin: 10px auto; /* Center the image horizontally */
+  display: block; /* Ensure block-level layout for proper centering */
 }
+

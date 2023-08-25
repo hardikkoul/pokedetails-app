@@ -30,7 +30,6 @@ function App() {
 
       {pokemonData && (
   <div>
-    <h2>{pokemonData.name}</h2>
     <img src={pokemonData.sprites.front_default} alt={pokemonData.name} />
     <table>
     <thead>
