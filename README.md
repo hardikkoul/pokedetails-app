@@ -2,8 +2,6 @@
 
 Welcome to the ReactJS Pokémon Info App! This is a simple web application built with React that allows users to search for Pokémon and view their details, including name, type, abilities, and evolutions.
 
-![App Screenshot](screenshot.png)
-
 ## Features
 
 - Search for Pokémon by name
